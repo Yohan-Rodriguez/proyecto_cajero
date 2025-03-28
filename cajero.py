@@ -34,13 +34,9 @@ for enu, i_name in enumerate(lista_nombres):
 
 # 
 while True:
-    try:
-        seleccion = int(input(f'¿Usted quién es?: {str_nombre}\n105: SALIR\n'))
+    seleccion = int(input(f'¿Usted quién es?: {str_nombre}\n105: SALIR\n'))
         
-    except:
-        print('Selección inválida')
-        continue
-
+    
 
     print('Ingresó una selección no válida')
 
